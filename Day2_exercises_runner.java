@@ -13,6 +13,7 @@ public class Day2_exercises_runner {
 //		
 		
 		
+		
 		results.physics = 100;
 		results.biology = 75;
 		results.chemistry = 60;
@@ -24,14 +25,15 @@ public class Day2_exercises_runner {
 //		can't access s oiutside of someMethod()
 //		int i = 2;
 		// i would be stored on the stackframe for main
-	}
+//	
 	// integer division truncates the results
 	// - anything after the decimal point is removed
 
-	public static void someMethod() {
-		// 's' is scoped to someMethod
-		// - it is only accesible inside this method
-		// - 's' is said to have a local/method scope
-		String s = "hello";
-		}
-}
+//	public static void someMethod() {
+//		// 's' is scoped to someMethod
+//		// - it is only accesible inside this method
+//		// - 's' is said to have a local/method scope
+//		String s = "hello";
+//		}
+	
+
